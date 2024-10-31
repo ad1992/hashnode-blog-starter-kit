@@ -82,6 +82,7 @@ const config = {
 				source: '/api/analytics',
 				destination: `${HASHNODE_ADVANCED_ANALYTICS_URL}/api/analytics`,
 			},
+			{ source: '/projects', destination: 'https://cryptmoji.in' },
 		];
 	},
 	async redirects() {
